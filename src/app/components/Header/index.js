@@ -24,13 +24,13 @@ const useStyles = makeStyles((theme) => ({
     alignSelf: "flex-end",
   },
   homeLink: {
-    display: "flex",
-    flex: 1,
     textDecoration: "none",
   },
   toolbar: {
     borderBottom: `1px solid ${theme.palette.divider}`,
-    [theme.breakpoints.down('xs')]: {
+    flex: 1,
+    justifyContent: "space-between",
+    [theme.breakpoints.down(666)]: {
       flexDirection: "column",
       paddingTop: theme.spacing(1),
     },
@@ -129,7 +129,8 @@ const Header = () => {
           >El Pope E-Commerce
           </Typography>
         </Link>
-        {/*<Box className={classes.search}>
+        {/* Future search box ...
+        <Box className={classes.search}>
           <Box className={classes.searchIcon}>
             <SearchIcon />
           </Box>

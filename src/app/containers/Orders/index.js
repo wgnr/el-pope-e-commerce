@@ -34,10 +34,13 @@ const useStyles = makeStyles(theme => ({
     alignItems: "center"
   },
   inputPaper: {
-    margin: theme.spacing(2),
     padding: theme.spacing(1),
+    margin: theme.spacing(2, 0),
     width: 275,
-    display: "flex"
+    display: "flex",
+    [theme.breakpoints.down(372)]: {
+      width: 255,
+    },
   },
   input: {
     flex: 1,
@@ -107,6 +110,7 @@ const Orders = () => {
         <Typography
           component="h3"
           variant="subtitle1"
+          style={{textAlign:"center"}}
         >Search your order detail by entering your order ID given in your purchase!
         </Typography>
         <Paper variant="outlined" className={classes.inputPaper}>

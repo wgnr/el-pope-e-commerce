@@ -60,15 +60,16 @@ The App should be able in the url http://localhost:3000/
 ## Live demo
 A link to heroku is provided -> [Live Demo](http://elpope.herokuapp.com/).
 
-Consider that my Firebase project may not be available by the moment you are seeing this. 
+Consider that my Firebase project may not be available by the moment you are seeing this. A live demo video is available in this link. YOUTUBE
 
 # Some comments
-* Loading linear bar handled by context.
+* Slightly responsive, not 100% optimized for mobile resolutions.
 * Categories and products are loaded from Firebase.
 * Routes were defined in a [centralized file](./src/app/routes/index.js).
-* Cart persistence in localStorage and handled by context.
 * Stock is checked previous to check out.
+* Cart persistence in localStorage and handled by context.
 * Orders can be fetched buy enter the order ID.
+* Loading linear bar handled by context.
 
 # Used Libraries
 * [Material UI](https://material-ui.com/): React components toolkit.
