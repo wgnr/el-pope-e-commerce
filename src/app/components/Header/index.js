@@ -25,6 +25,8 @@ const useStyles = makeStyles((theme) => ({
   },
   homeLink: {
     textDecoration: "none",
+    display: 'flex',
+    alignItems: "center",
   },
   toolbar: {
     borderBottom: `1px solid ${theme.palette.divider}`,
