@@ -6,7 +6,7 @@ Material UI, as Front End and Firebase as a simple Back End.
 
 The site should allow user to list products, access to their details, add them to basket, check out and retrieve purchase info by order id.
 
-🕹 A live demo is available in Heroku [here](http://elpope.herokuapp.com/).
+🕹 A live demo is available in Heroku [here](https://elpope.herokuapp.com/).
 
 All products info belongs to [Chewy](https://www.chewy.com/).
 
@@ -58,9 +58,9 @@ npm run start
 The App should be able in the url http://localhost:3000/
 
 ## Live demo
-A link to heroku is provided -> [Live Demo](http://elpope.herokuapp.com/).
+A link to heroku is provided -> [Live Demo](https://elpope.herokuapp.com/).
 
-Consider that my Firebase project may not be available by the moment you are seeing this. A live demo video is available in this link. YOUTUBE
+Consider that my Firebase project may not be available by the moment you are seeing this. A live demo video is available [in this link](https://youtu.be/yCoaqAGXvjg).
 
 # Some comments
 * Slightly responsive, not 100% optimized for mobile resolutions.
