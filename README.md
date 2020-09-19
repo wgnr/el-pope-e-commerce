@@ -15,11 +15,10 @@ Sure! Previously, you should have a new project created in your Firebase account
 
 First clone the repo and install its dependencies.
 ```bash
-git clone XXXXXXX
-cd XXXXXX
+git clone https://github.com/wgnr/el-pope-e-commerce
+cd el-pope-e-commerce
 npm install
 ```
-
 In the root directory, rename `.env.example`  to `.env`.
 ```bash
 mv .env.example .env
