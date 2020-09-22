@@ -41,14 +41,9 @@ export function CartProvider({ children }) {
   }
 
   function removeFromCart(itemId) {
-    const indexItemCart = items.findIndex(cartItem => cartItem.id === itemId)
-    if (!(indexItemCart === -1)) {
-      const auxArr = [...items];
-      auxArr.splice(indexItemCart, 1);
-
-      localStorage.setItem(LOCAL_STORAGE_CART, auxArr);
-      return setItems(auxArr)
-    }
+    const newCart = items.filter(cartItem => cartItem.id !== itemId)
+    localStorage.setItem(LOCAL_STORAGE_CART, newCart);
+    setItems(newCart)
   }
 
   function getTotalItems() {
