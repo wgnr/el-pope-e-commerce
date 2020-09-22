@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 // Components
-import ItemDetail from '../ItemDetail'
+import ItemDetail from '../../components/ItemDetail'
 // Context
 import { useLoading } from '../../contexts/LoadingContext'
 // Routing

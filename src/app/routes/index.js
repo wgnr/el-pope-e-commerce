@@ -9,11 +9,11 @@ import Home from '../containers/Home'
 import Cart from '../containers/Cart'
 import Orders from '../containers/Orders'
 // Components
-import ItemListContainer from '../components/ItemListContainer';
-import ItemDetailContainer from '../components/ItemDetailContainer';
+import ItemListContainer from '../containers/ItemListContainer';
+import ItemDetailContainer from '../containers/ItemDetailContainer';
 
 
-function App() {
+function Routes() {
 
   return (
     <Switch>
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default Routes;

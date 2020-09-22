@@ -4,7 +4,7 @@ import {
   Typography
 } from '@material-ui/core';
 // Components
-import ItemList from '../ItemList'
+import ItemList from '../../components/ItemList'
 // Context
 import { useLoading } from '../../contexts/LoadingContext'
 // Routing
