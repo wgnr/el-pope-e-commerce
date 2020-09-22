@@ -12,8 +12,11 @@ import { useParams } from 'react-router-dom';
 // Utils
 import {
   getCollection,
-  getItemsByCategory,
 } from '../../utils/firebase';
+// Queries
+import {
+  getItemsByCategory,
+} from '../../queries'
 
 
 const ItemListContainer = ({ onAdd }) => {

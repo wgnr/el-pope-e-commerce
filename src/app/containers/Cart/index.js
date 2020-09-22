@@ -14,8 +14,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import { useCart } from '../../contexts/CartContext';
 // Routing
 import { Link } from 'react-router-dom';
-// Utils
-import { createNewOrder } from '../../utils/firebase';
+// Queries
+import { createNewOrder } from '../../queries';
 // Form control and validation
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers';
@@ -257,7 +257,7 @@ const Cart = () => {
             component="h2"
             variant="h6"
             align="center"
-            style={{whiteSpace: "pre-line"}}
+            style={{ whiteSpace: "pre-line" }}
             ref={divRef}
           >{purchaseResult}
           </Typography>
